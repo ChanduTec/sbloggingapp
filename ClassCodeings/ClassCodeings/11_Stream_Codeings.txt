@@ -1,0 +1,24 @@
+
+1)Get the second-highest salary using the stream API.
+2)Get the employee names in the given list whose names start with A.
+3)Count the employees who are working in the HR department.
+4)Remove the duplicates on a given List.
+5)How to find the frequency of each Character in a string using streams
+6)Find the frequency of each element in the array list.
+7)Sort the employee name based on the ascending order using streams.
+8)Sort the employee name based on the Descending order using streams.
+9)Merge arrays into a single array using streams.
+10)Find the sum of all digits of a number in Java 8
+11)Given a list of strings, sort them according to increasing order of their length
+12)Given an integer array, find the sum and average of all elements
+13)How to find the common elements between two arrays using stream API.
+14)Reverse each word of a string using java8 streams.
+15)Find the sum of the first 10 natural numbers.
+16)Retrieve the Map data(both keys & values) using the stream api
+17)Count the male & female employees' data(A single list should be used to get it) and store it in to another list. using stream API
+18)Convert a list of data into the Map using stream API.
+19)Get the employees who joined before 2018, with the help of stream api.
+20)Get only keys in the map interface using stream API.
+21)Get only values in the map interface using stream API.
+22)Get the employee's data whose salary is less than 50k then give the hike of 15%, After the hike collect all the data in another list.
+23) remove all key-value pairs from a HashMap using Java 8

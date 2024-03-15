@@ -1,0 +1,44 @@
+1) Create one collection that will store Cricket team data(Batsman name, runs, wickets, no of matches) of different batsmen. Now calculate the total run scored by the team. Use different techniques(at least 2) to access the element of your collection.
+2) Create one collection that stores marks of 10 students, and arrange them in ascending using predefined API methods. Try to add the name of one student also, is it possible? How you can write your program so that it will take marks only.
+
+3)Store the Employee Details(Emp name, emp phone number, emp salary, emp address).And Employees may be duplicates also. Select the correct suitable Collection
+and store the data.
+
+4)Store the Employee Details(Emp name, emp phone number, emp salary, emp address).And Employees cannot be duplicates. Select the correct suitable Collection
+and store the data.
+
+5)Store the Employee Details(Emp name, emp phone number, emp salary, emp address).And Employees cannot be duplicates & It will follow the order of insertion. Select the correct suitable Collection
+and store the data.
+
+6)Store the 10 students' data(name, age, course name, course fee), and need to use the default sorting order, Select the suitable Collection 
+
+7) Create a list of students and then make it read-only.
+
+8)Create a list of 5 student names, and then rotate the list from the 3rd element of the list
+
+9)Store marks of 6 students (70, 40, 50, 48, 98, 56) in a 
+sorted collection, now 
+a) Get the highest marks,
+b) Get the lowest marks
+c) Get all the marks greater than or equal to 50.
+d) Get all the marks less than 50 
+e)Get marks between 40 and 70.
+
+10)Create a List of employees, And get the data whose salary is greater than 50k. without using Java 8.
+
+11)Create a List of Employees' Data, And retrieve the data with the help of an iterator().
+
+12)Create a List of Employees' Data, And retrieve the data with the help of a Listiterator().
+
+13)Create a List of Students' data(name, marks) and Sort the data based on names in ascending order with the help of Comparable.
+
+14)Create a List of Students' data(name, marks) and Sort the data based on names in ascending order with the help of a Comparator.
+
+15)Develop the code in which scenario we can face the fail-fast problem.
+
+16)Develop the code to overcome the fail-fast problem in the list.
+
+17)Develop the code to remove the duplicates in ArrayList.
+18)Develop the code to reverse the ArrayList
+19)How to sort ArrayList in descending order without using JAVA 8?
+20)Develop the code to synchronize ArrayList.

@@ -1,0 +1,10 @@
+1)Create a method that handles Arithmetic Exception.
+2)How to handle the null pointer Exception.
+3)Develop the code to handle the checked Exception.
+4)Develop the code Parent class Methods handling Exceptions, You can override into the child class Exceptions.
+5)Use multiple CatchBlocks and develop the code.
+6)Develop the code and try with resource
+7) A combination of  multiple try catches finally blocks
+8)How to handle the custom Exceptions.
+9)throws custom Exception explicitly in the try, catch & finally blocks. And check the flow of execution.
+10)Create custom exceptions, with the help of extends Exception classes and overload the constructor, print the custom message in the child class.

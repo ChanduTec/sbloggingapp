@@ -1,0 +1,15 @@
+1)Store the Employee Data. Employee ID as key and employee name as Value.
+2)Store the employee Data, While retrieving no need to follow any insertion order. Select the appropriate Map and write the logic.
+3)Store the employee Data, While retrieving it should follow any insertion order. Select the appropriate Map and write the logic.
+4)Store the employee Data, While retrieving it will follow the natural sorting order. Select the appropriate Map and write the logic.
+5)Write a code when a Fail-fast problem occurs with the Map interface.
+6)Write a code to Overcome the fail-fast problem with the Map interface.
+7)Retrieve the Map data with the help of keys
+8)Retrieve the Map data with the help of values
+9)Retrieve the data with the help of keys & values in the map
+10)Write a code without any null values, select the appropriate Map, and write the logic.
+11) Retrieve the Data using with Iterator interface.
+12) Retrieve the Data using with ListIterator interface.
+13)Write a code, that map should allow the duplicate keys as well
+14)Select any map, Do the operations with atleast 5 methods.
+

@@ -1,0 +1,28 @@
+1)Create a class with all types of methods and constructors and execute it.
+2) Create a class AshokIt. Inside the class “AshokIt”, create a 
+static method displayStaticMessage() and write some message in it. Create a main 
+method and call the displayStaticMessage() method from the main using: 
+a. Class name 
+b. Using object. 
+c. Null reference 
+3)Create a class “Toy”.Create a static method to display the toy name i.e getToyName() 
+and a non-static method like getToyCost(). 
+a. Call both methods from the main method directly without an object and without 
+a class name.
+b. Call both methods with class names. Can you call both methods with class names? 
+c. Create an object and call both the method with object. Can you call both of them 
+with an object reference?
+4)Create a class “AshokIt” and 
+a. Create one static variable x and one static variable y. 
+b. In the main method print both the values without class name and object reference, 
+What o/p you will get or you will get an error?
+5)Create a Parent Class AshokIt with instance and static methods, Create a child class with the name "JavaDeveloper" and override the instance methods in the child class
+6)Create a class AshokIt, and create a method with name coding(); Overload the method with different input parameters.
+7)Examples of  Overloading With the help of the static methods.
+8)Execute the overridden methods in the child class main method, By creating the Parent class reference variables to the child class.
+9)Execute the overridden methods in the child class main method, By creating the Child class Object reference.
+10)Create a program when ClassCastException will come.
+11)Write a program to override the parent class method into the child class by changing their return types.
+12)Write a program to overload the methods by changing their return types.
+13)How to execute one class of private methods into another class.
+14)Write a code on how to overload the main method.

@@ -1,0 +1,269 @@
+1)Variables
+2)cs
+3)Arrays & Strings
+4)Scanner Class
+5)TypeCasting
+6)methods
+7)constructors
+8)Inheritance, Encapsulation
+9)As
+10) Polymorphism.
+-------------------------------------------------------------------------
+public class AshokIt{
+
+  public static int m1(){
+System. out.println("i am in m1()")
+    return 10;
+  }
+
+public void data(){
+ m1();
+}
+
+public static void main(String[] ar){
+ AshokIt ashokIt=  new AshokIt();
+ashokIt.m1();
+
+
+1)accees of methods
+2)douts on string methods, StringBuffer, StringBuilder
+2)Encapsulation
+4)Arrays
+5)static and instance blocks
+
+-------------------------------------------------------------------------------------
+They are 2 types of methods are their
+1)instance
+2)static
+
+
+
+instance method it will be loadd at the time of object creation.and it will store on heap memory.
+if i created multuple objects means for same method multipule time memory should allocate.
+
+
+when i am having diffrent logics in the methods, then i will go with instance  // 1 , 2 ,3,4,5
+
+
+static
+------
+At the time of class loading, class will be load in only 1 time
+memory is going to allocate  statck clas area
+
+
+1)same content is their, then  we can go for static method.
+2)If i want to load some data at the time of class loading time only then i will go with static methods
+3)if i want to share the data from network to the network i will go with instance methods.
+
+
+1)instance--instance
+2)instance---static
+3)static--static
+4)static---instance
+
+
+(Why, what, when, How)
+
+
+---------------------------------------------------------------------------------------
+caller(if some one is calling means then they are calle)
+called(if i called by some one)
+
+ Caller    called
+ 
+1)instance--instance
+2)instance---static
+3)static--static
+4)static---instance
+
+/**
+ * First executable statement in java is package
+ * 
+ * once package is loaded then class is going to be load
+ * 
+ * once class is loaded then static blocks is going to be loaded
+ * 
+ * once static blocks is loaded then main method is going to be load
+ * 
+ * once main method is loaded then remaining methods is loaded, if it is
+ * instance means when object is created then instance data will be loaded
+ * 
+ * 
+ */
+
+1)Instance -Instance
+--------------------
+Instance methods can access instance methods directly when they are in the same class, If they are in the diffrent class we need to access with the help of Object creation.
+
+2)Instance-static  
+----------------
+Instance methods can access static methods directly when they are in the same class, If they are in the diffrent class means we can load by using the class name.
+
+3)static-static
+---------------
+static methods can access static methods directly when they are in the same class, If they are in the diffrent class we can access by using class name.
+
+4)static-instance
+-------------------
+static methods can't access instance methods directly when they are in the same class or in the diffrent class also, we need to create an object only.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+public void m1(String name, int value){
+
+
+
+}
+----------------------------------------------------
+public int m1(String name, int value){
+
+
+  return value;
+}
+-----------------------------------------------
+
+public Object logic(Object object, String name){
+
+
+
+return 
+
+}
+----------------------------------------------------------
+  
+                                                     OOPS  (Solid Principles)
+                                                 -------------------------------
+
+POP(procedure orinted programming)
+---
+C, R, Pascal
+
+OOP
+----
+(Java, .net)
+
+*)class.
+*)Objects.// new  
+*)Encapsulation.
+*)Inheritance.
+*)Ploymerphism.
+*)Abstarction.
+
+
+*)Class
+--------
+// Class is a blueprint or skelton, By uisng the class we can achive the UserDefind Data types.
+public class Product{
+
+// 4 yeras
+
+}//20 lpa,, 40lpa
+
+Object
+------
+Object is for storeing the data(instance) and stored in to the heap memory. to access the data from network to the network.
+*)Encapsulation
+----------------
+Process or binding the data in to the entity
+
+*)Inheritance
+--------------
+*)is-a (extends)
+*)has-a(if i want to use in entire class by creating the object then we can go with has-a)
+*)use-a(we will pass the parameters as for the method)
+
+Ploymerphism
+------------
+Single class shows multipule forms of a behaviour.
+*)CP(OL)(OverLoading)
+*)RP(OR)(OverRiding)
+
+*)Solid Principles
+-------------------
+
+(Design and develop meetings)
+xyz
+
+// (solid principles, DS, Design pattrens)
+1)
+2)SOLID
+
+S-->Single responsible
+0-open closed principle(Open for extension closed for modification)
+
+//Marker Interface
+
+
+
+Inheritance
+------------
+Is-A
+ 
+class can extends only single class
+class can implemnts any  number  of interfaces
+interface can extends any number of interfaces
+
+Rules
+*)in method overloading return type is optional(we can keep what ever we want)
+*)In method overiding return type is:
+   1) same return type we should use.
+   2)In child class we have to go for the child hiraricy(like that sub class we have to pass)
+     Object  --->Object-->  all the class in the java are sub class
+    3)same we have to pass, other wise That top of that we have to pass. for the ASp
+     4)If i want to go with overiding we should use the annotation called @overide
+5)In overiding first controller will goes to the parent class, then it will check the method aviallable are not in parent class(what method we are calling that method)if method is not avilble means then it will throws CE.
+->yes method is aviillable, Then controller will comes to the Child class, it will check that method is overiden are not it will check
+-->if it is overiden means it will print the data from child class method..If it is not overiden means it will print the logic from parent
+class only.
+    When this is going to be work, if i created the Object with Parent class refrence.
+
+
+1)Create a class with all types of methods and constructors and execute it.
+2) Create a class AshokIt. Inside the class “AshokIt”, create a 
+static method displayStaticMessage() and write some message in it. Create a main 
+method and call the displayStaticMessage() method from the main using: 
+a. Class name 
+b. Using object. 
+c. Null reference 
+3)Create a class “Toy”.Create a static method to display the toy name i.e getToyName() 
+and a non-static method like getToyCost(). 
+a. Call both methods from the main method directly without an object and without 
+a class name.
+b. Call both methods with class names. Can you call both methods with class names? 
+c. Create an object and call both the method with object. Can you call both of them 
+with an object reference?
+4)Create a class “AshokIt” and 
+a. Create one static variable x and one static variable y. 
+b. In the main method print both the values without class name and object reference, 
+What o/p you will get or you will get an error?
+5)Create a Parent Class AshokIt with instance and static methods, Create a child class with the name "JavaDeveloper" and override the instance methods in the child class
+6)Create a class AshokIt, and create a method with name coding(); Overload the method with different input parameters.
+7)Examples of  Overloading With the help of the static methods.
+8)Execute the overridden methods in the child class main method, By creating the Parent class reference variables to the child class.
+9)Execute the overridden methods in the child class main method, By creating the Child class Object reference.
+10)Create a program when ClassCastException will come.
+11)Write a program to override the parent class method into the child class by changing their return types.
+12)Write a program to overload the methods by changing their return types.
+13)How to execute one class of private methods into another class.
+14)Write a code on how to overload the main method.
+
+
+
+
+String,StringBuffer,StringBuilder
+
+//String name="AshokIt";
+   String name2=name.concat("java developer");
+       System.out.println(name2);// AshokIt  java developer
+
+
+
+
+
+
+
+
+
+

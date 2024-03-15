@@ -1,0 +1,13 @@
+1)Create a class AshokIt, create a few instance methods and static methods, and call from the main method
+2)Create a class AshokIt, declare a few instance variables, and assign values through the constructor.
+3)Create a class AshokIt, create instance methods and static methods, and execute the instance methods without creating the object.
+4)Create a class AshokIt, create instance methods, static methods, instance blocks, static blocks, and Execute all the blocks, and observe the flow of execution.
+5)Create a class AshokIt, Create instance methods and static methods, call all the instance methods into the static methods, and execute it.
+6)Create an instance method with name coding(), and the coding method return type is int.
+7)Create a static method with name coding(), and the coding method return type is String.
+8)Create an instance method with name coding(), and the coding method return type is Object.
+9)Create a class AshokIt, and create at least 4 methods with return type and with parameters.
+10)Write a code on how to call, one instance method into another instance method
+on how to call, one instance method into another static method
+on how to call, one static  method into another static  method
+on how to call, one static method into another instance method

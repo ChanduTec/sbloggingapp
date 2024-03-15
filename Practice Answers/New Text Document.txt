@@ -1,0 +1,185 @@
+2)How to handle the null pointer exception.
+
+public class CricketTeam {
+	private static CricketTeam cricketTeam = null;
+
+	public static void add() {
+		System.out.println("I am inside the add()");
+	}
+
+	public void data() {
+		System.out.println("i am inside the data()");
+	}
+
+	public static void main(String[] args) {
+		try {
+			if (cricketTeam == null) {
+				cricketTeam = new CricketTeam();
+				cricketTeam.data();
+			}
+
+		} catch (NullPointerException e) {
+			e.printStackTrace();
+		}
+		add();
+	}
+}
+-----------------------------------------------------------------------------------------------------------
+3)Develop the code to handle the checked Exception.
+public class CricketTeam {
+	public void loadFile() throws FileNotFoundException {
+		File file = new File("C:\\DialyClass\\ClassPractice\\DataTpyes.txt");
+		Scanner sc = new Scanner(file);
+
+		while (sc.hasNextLine())
+			System.out.println(sc.nextLine());
+	}
+
+	public static void main(String[] args) throws FileNotFoundException {
+
+		new CricketTeam().loadFile();
+
+		System.out.println("Welcoem to the main method");
+	}
+
+}
+But here my question is when i used try catch, abnormal termination is not happening, But when i used the throws abnormal termenation is happening why it is getting like this.
+---------------------------------------------------------------------------------------------------
+4)Develop the code Parent class Methods handling Exceptions, You can override into the child class Exceptions.
+
+If i used the try catch we no need to follow the hyraricy but if i use the throws then i should use the 
+1)I parent class what excpetion we throws same exception we have to throws in the child class
+            or
+2)in parent class if i throws Parent class Exception in child class we can throws sub class of that exceptions
+3)In parent class Child exceptions if i throws but in child class if i throws Parent class exception then it wont work
+    i mean child to parent relation it won't work
+
+
+public class AshokIt {
+
+	public void add()  throws ArithmeticException{
+		try {
+			System.out.println("I am inside the add()");
+			int a = 10;
+			int b = 0;
+			int c = a / b;
+			System.out.println(c);
+			System.out.println("I am outside the add()");
+		} catch (ArithmeticException e) {
+			e.printStackTrace();
+		}
+	}
+
+	public void logic() throws NullPointerException {
+		AshokIt as = null;
+		try {
+			if (as == null) {
+				as = new AshokIt();
+				System.out.println("I am inside the logic()");
+				as.add();
+				System.out.println("I am outside the logic()");
+			}
+		} catch (NullPointerException e) {
+			e.printStackTrace();
+		}
+
+	}
+}-----------------------------
+package myproblems.oops;
+
+public class CricketTeam extends AshokIt {
+	@Override
+	public void add() throws Exception {
+		try {
+			System.out.println("I am inside the add()");
+			int a = 10;
+			int b = 0;
+			int c = a / b;
+			System.out.println(c);
+			System.out.println("I am outside the add()");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	@Override
+	public void logic() throws Exception {
+		AshokIt as = null;
+		try {
+			if (as == null) {
+				as = new AshokIt();
+				System.out.println("I am inside the logic()");
+				as.add();
+				System.out.println("I am outside the logic()");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+	}
+
+	public static void main(String[] args) throws Exception {
+		AshokIt ashokIt = new CricketTeam();
+		ashokIt.add();
+		ashokIt.logic();
+	}
+}
+-----------------------------------------------------------------------------------------------------------------------------
+5)Use multiple CatchBlocks and develop the code.
+
+
+public class CricketTeam {
+	public void logic() {
+		try {
+			System.out.println("I am inside the add()");
+			int a = 10;
+			int b = 0;
+			int c = a / b;
+			System.out.println(c);
+			System.out.println("I am outside the add()F");
+		} catch (Exception e) {
+			System.out.println("Arithmetic Exception occurs");
+		} catch (ArrayIndexOutOfBoundsException e) {
+			System.out.println("ArrayIndexOutOfBounds Exception occurs");
+		} catch (Exception e) {
+			System.out.println("Parent Exception occurs");
+		}
+		System.out.println("rest of the code");
+	}
+
+	public static void main(String[] args) {
+		System.out.println("I am inside the main()");
+		new CricketTeam().logic();
+		System.out.println("I am outside the main()");
+	}
+}
+
+
+so here in multipule catch blocks  parent to child it won't work
+-------------------------------------------------------------------------------------------------------------------------------------------------
+6)
+-------------------------------------------------------------------------
+10)throws custom Exception explicitly in the try, catch & finally blocks. And check the flow of execution.
+public static void main(String[] args) throws Exception {
+		try {
+			System.out.println("I am inside the add()");
+			int a = 10;
+			int b = 10;
+			int c = a / b;
+			System.out.println(c);
+
+			System.out.println("I am outside the add()F");
+			throw new NullPointerException("i am throwing null pointer exception");
+		} catch (Exception e) {
+			System.out.println("Arithmetic Exception occurs");
+			throw new Exception("I am throwing Exception class");
+		} finally {
+			throw new ArrayIndexOutOfBoundsException("Throwing array index out of bond exception");
+		}
+	}
+}
+------------------------------------------------------------------------------------------------------------------------------
+
+
+
+

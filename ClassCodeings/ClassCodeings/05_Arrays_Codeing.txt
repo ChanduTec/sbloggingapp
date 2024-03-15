@@ -1,0 +1,21 @@
+1)Retrieve the elements from the array using any 3 ways.
+2)Remove the Duplicate elements from the given array?
+3)Write a Java program to find the second largest element in an array of integers.
+4)Write a Java program to check the equality of two arrays.
+5)Write a Java program to find all pairs of elements in an integer array whose sum is equal to a given number?
+6)Write a Java program to separate zeros from non-zeros in an integer array?
+7)Write a Java program to convert an array to ArrayList and an ArrayList to array?
+8)Write a Java program to count occurrences of each element in an array?
+9)Write a Java program to reverse an array without using an predefind methods
+10)Write a Java program to remove duplicate elements from an array?
+11)Write a Java program to find the most frequent element in an array?
+12)Sort the given array without using the predefind methods
+13)Count  the only duplicates and print in the given array.
+14)Given array contains zeros and non zeros , Keep all non zeros to left of the array
+15)Given array contains 1 to 10. And here some elements are missing find the missing elements on this array.
+16)Find the second largest elemnt in an array without using predefind methods?
+17)How to find first non-repeating element in array of integers?
+18)How find the first repeating element in an array of integers?
+19)Find the even numbers in the given array
+20)Given that the array contains some elements, And add 120 to each element and print all the added data in single array
+
